@@ -1,0 +1,28 @@
+@import './fonts.scss';
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'FiraGO';
+    height: 100%;
+    margin: 0;
+    background: #a7acb9;
+}
+
+:root {
+    --color-green: #1ecb40;
+    --color-green-light: #b3ebbe;
+    --color-blue: #4285f4;
+    --color-black: #202635;
+    --color-silver: #f0f2f7;
+    --color-gray: #737d98;
+    --color-gray-light: #c5cbdb;
+}
+
+.container-x {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
